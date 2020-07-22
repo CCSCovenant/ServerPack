@@ -1,0 +1,95 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 20-7-20 下午8:12
+Description: Ticking entity
+
+java.lang.NullPointerException: Ticking entity
+	at net.minecraft.class_1297.method_5692(class_1297.java:2876)
+	at net.minecraft.class_1297.method_5713(class_1297.java:1121)
+	at net.minecraft.class_1297.method_5876(class_1297.java:1110)
+	at net.minecraft.class_1297.method_5670(class_1297.java:447)
+	at net.minecraft.class_1309.method_5670(class_1309.java:322)
+	at net.minecraft.class_1308.method_5670(class_1308.java:271)
+	at net.minecraft.class_1297.method_5773(class_1297.java:422)
+	at net.minecraft.class_1309.method_5773(class_1309.java:2206)
+	at net.minecraft.class_1308.method_5773(class_1308.java:338)
+	at net.minecraft.class_3218.method_18762(class_3218.java:615)
+	at net.minecraft.class_1937.method_18472(class_1937.java:603)
+	at net.minecraft.class_3218.method_18765(class_3218.java:405)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:873)
+	at net.minecraft.class_3176.method_3813(class_3176.java:306)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:813)
+	at net.minecraft.server.MinecraftServer.handler$zel000$modifiedRunLoop(MinecraftServer.java:2296)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:653)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:256)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.class_1297.method_5692(class_1297.java:2876)
+	at net.minecraft.class_1297.method_5713(class_1297.java:1121)
+	at net.minecraft.class_1297.method_5876(class_1297.java:1110)
+	at net.minecraft.class_1297.method_5670(class_1297.java:447)
+	at net.minecraft.class_1309.method_5670(class_1309.java:322)
+	at net.minecraft.class_1308.method_5670(class_1308.java:271)
+	at net.minecraft.class_1297.method_5773(class_1297.java:422)
+	at net.minecraft.class_1309.method_5773(class_1309.java:2206)
+	at net.minecraft.class_1308.method_5773(class_1308.java:338)
+	at net.minecraft.class_3218.method_18762(class_3218.java:615)
+
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:witch (net.minecraft.class_1640)
+	Entity ID: 7451869
+	Entity Name: Witch
+	Entity's Exact location: -150.70, 142.00, 280.70
+	Entity's Block location: World: (-151,142,280), Chunk: (at 9,8,8 in -10,17; contains blocks -160,0,272 to -145,255,287), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.class_1937.method_18472(class_1937.java:603)
+	at net.minecraft.class_3218.method_18765(class_3218.java:405)
+
+-- Affected level --
+Details:
+	All players: 1 total; [EntityPlayerMPFake['Loader'/1148934, l='ServerLevel[world]', x=-157.65, y=142.18, z=277.92]]
+	Chunk stats: ServerChunkCache: 2919
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-64,76,16), Chunk: (at 0,4,0 in -4,1; contains blocks -64,0,16 to -49,255,31), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 44399994 game time, 1061 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Level weather: Rain time: 1 (now: false), thunder time: 1 (now: false)
+	Known server brands: fabric
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:873)
+	at net.minecraft.class_3176.method_3813(class_3176.java:306)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:813)
+	at net.minecraft.server.MinecraftServer.handler$zel000$modifiedRunLoop(MinecraftServer.java:2296)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:653)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:256)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.1
+	Minecraft Version ID: 1.16.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_221, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1965150696 bytes (1874 MB) / 8443133952 bytes (8052 MB) up to 8589934592 bytes (8192 MB)
+	CPUs: 12
+	JVM Flags: 12 total; -Xms128M -Xmx8192M -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:G1MixedGCLiveThresholdPercent=35 -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled
+	Player Count: 1 / 20; [EntityPlayerMPFake['Loader'/1148934, l='ServerLevel[world]', x=-157.65, y=142.18, z=277.92]]
+	Data Packs: vanilla
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)
