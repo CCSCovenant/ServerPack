@@ -1,0 +1,7 @@
+[00:23:23] [main/INFO]: Loading for game Minecraft 1.15.2
+[00:23:23] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[00:23:30] [main/INFO]: [FabricLoader] Loading 2 mods: minecraft@1.15.2, fabricloader@0.9.0+build.204
+[00:23:30] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Users/pzeug/Downloads/MCDReforged-0.9.3-alpha/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
+[00:23:34] [main/ERROR]: Failed to load properties from file: server.properties
+[00:23:34] [main/WARN]: Failed to load eula.txt
+[00:23:34] [main/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.

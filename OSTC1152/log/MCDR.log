@@ -1,0 +1,13 @@
+[MCDR] [2020-07-24 00:23:20] [MainThread/INFO]: Language has set to en_us
+[MCDR] [2020-07-24 00:23:20] [MainThread/INFO]: Parser has set to vanilla_parser
+[MCDR] [2020-07-24 00:23:20] [MainThread/INFO]: Encoding / Decoding method has set to utf-8 / cp1252
+[MCDR] [2020-07-24 00:23:20] [MainThread/INFO]: Loading plugins
+[MCDR] [2020-07-24 00:23:20] [MainThread/INFO]: No plugin has changed; Loaded plugin amount: §70§r
+[MCDR] [2020-07-24 00:23:20] [MainThread/INFO]: Starting the server with command "java -Xms1G -Xmx2G -jar fabric-server-launch.jar nogui"
+[MCDR] [2020-07-24 00:23:21] [MainThread/INFO]: Server is running at PID 9212
+[MCDR] [2020-07-24 00:23:21] [CheckUpdate/INFO]: MCDR is already the latset version
+[MCDR] [2020-07-24 00:23:34] [MainThread/INFO]: Waiting for server process to stop
+[MCDR] [2020-07-24 00:23:34] [MainThread/INFO]: Server process stopped with code 0
+[MCDR] [2020-07-24 00:23:34] [MainThread/INFO]: Server stopped by itself
+[MCDR] [2020-07-24 00:23:34] [MainThread/INFO]: Server stopped
+[MCDR] [2020-07-24 00:23:34] [MainThread/INFO]: bye

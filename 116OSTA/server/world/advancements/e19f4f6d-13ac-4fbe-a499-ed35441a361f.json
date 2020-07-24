@@ -1,0 +1,9 @@
+{
+  "minecraft:recipes/decorations/white_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2020-07-24 11:13:01 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 2567
+}

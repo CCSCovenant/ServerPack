@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2020-07-24 18:58:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp": {
+    "criteria": {
+      "has_dried_kelp_block": "2020-07-24 18:59:09 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 2567
+}

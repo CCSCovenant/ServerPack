@@ -1,0 +1,33 @@
+{
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2020-07-24 17:46:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2020-07-24 17:46:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2020-07-24 17:46:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2020-07-24 17:46:48 +0800"
+    },
+    "done": false
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2020-07-24 17:46:09 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 2567
+}
